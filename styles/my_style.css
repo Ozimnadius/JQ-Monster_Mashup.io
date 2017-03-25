@@ -1,0 +1,78 @@
+body {
+  background-color: #000;
+  text-align: center;
+}
+
+p {
+  color: #33ff66;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#top {
+  position: relative;
+  z-index: 4;
+}
+
+#container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.lightning {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+#frame {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 545px;
+  height: 629px;
+  background-image: url('../images/frame.png');
+  overflow: hidden;
+  z-index: 2;
+}
+
+#pic-box {
+  width: 367px;
+  height: 460px;
+  overflow: hidden;
+  position: relative;
+  top: 84px;
+  left: 91px;
+  z-index: 1;
+}
+
+.face {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+#head {
+  height: 172px;
+  position: relative;
+}
+
+#eyes {
+  height: 79px;
+  position: relative;
+}
+
+#nose {
+  height: 86px;
+  position: relative;
+}
+
+#mouth {
+  height: 117px;
+  position: relative;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "5",
+  "authors": [
+    "Ozimnadius <79251486565@yandex.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^5.0.0"
+  }
+}
