@@ -34,7 +34,7 @@ p {
 
 #frame {
   position: absolute;
-  left: 100px;
+  /*left: 100px;*/
   top: 100px;
   width: 545px;
   height: 629px;
